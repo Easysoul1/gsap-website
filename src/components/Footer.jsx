@@ -41,7 +41,7 @@ const Footer = () => {
         scrollTrigger: {
           trigger: footerRef.current,
           start: 'top bottom-=100',
-          toggleActions: 'play none none none'
+          toggleActions: 'play none none reverse'
         }
       }
     )
@@ -60,7 +60,7 @@ const Footer = () => {
         scrollTrigger: {
           trigger: footerRef.current,
           start: 'top bottom-=50',
-          toggleActions: 'play none none none'
+          toggleActions: 'play none none reverse'
         }
       }
     )
